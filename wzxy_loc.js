@@ -19,7 +19,7 @@ function doSign({ id, logId }) {
     district: '秦都区',
     township: '钓台街道',
     latitude: 34.305171,
-    province: '陕西省省',
+    province: '陕西省',
   }
   const doSignRequest = {
     url: url.doSign,
