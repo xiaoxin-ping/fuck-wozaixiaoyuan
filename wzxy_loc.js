@@ -13,12 +13,12 @@ function doSign({ id, logId }) {
   const data = {
     signId: id,
     city: '咸阳市',
-    longitude: 115.018481,
+    longitude: 108.730345,
     id: logId,
     country: '中国',
     district: '秦都区',
     township: '钓台街道',
-    latitude: 30.205023,
+    latitude: 34.305171,
     province: '陕西省省',
   }
   const doSignRequest = {
