@@ -28,12 +28,12 @@ token 有效期为 4 天，每 4 天之内进入一次签到列表，脚本自�
 
 ```ini
 [task_local]
-1 21 * * * https://raw.githubusercontent.com/NomadJohn/fuck-wozaixiaoyuan/main/wzxy_loc.js, tag=定位签到, enabled=true
-01 0 * * * https://raw.githubusercontent.com/NomadJohn/fuck-wozaixiaoyuan/main/wzxy_tmp.js, tag=体温提交, enabled=true
+1 21 * * * https://raw.githubusercontent.com/xiaoxin-ping/fuck-wozaixiaoyuan/main/wzxy_loc.js, tag=定位签到, enabled=true
+01 0 * * * https://raw.githubusercontent.com/xiaoxin-ping/fuck-wozaixiaoyuan/main/wzxy_tmp.js, tag=体温提交, enabled=true
 
 
 [rewrite_local]
-student\.wozaixiaoyuan\.com\/sign\/getSignMessage\.json url script-request-header https://raw.githubusercontent.com/NomadJohn/fuck-wozaixiaoyuan/main/wzxy_token.js
+student\.wozaixiaoyuan\.com\/sign\/getSignMessage\.json url script-request-header https://raw.githubusercontent.com/xiaoxin-ping/fuck-wozaixiaoyuan/main/wzxy_token.js
 ```
 
 ## 配置 MitM，启用 HTTPS 解析
