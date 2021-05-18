@@ -12,7 +12,7 @@ const maxPage = 5
 function doSign({ id, logId }) {
   const data = {
     signId: id,
-    city: '黄石市',
+    city: '咸阳市',
     longitude: 115.018481,
     id: logId,
     country: '中国',
