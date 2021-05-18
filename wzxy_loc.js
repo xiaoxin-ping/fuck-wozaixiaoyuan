@@ -16,10 +16,10 @@ function doSign({ id, logId }) {
     longitude: 115.018481,
     id: logId,
     country: '中国',
-    district: '下陆区',
-    township: '团城山街道',
+    district: '秦都区',
+    township: '钓台街道',
     latitude: 30.205023,
-    province: '湖北省',
+    province: '陕西省省',
   }
   const doSignRequest = {
     url: url.doSign,
